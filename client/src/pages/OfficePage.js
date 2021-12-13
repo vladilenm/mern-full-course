@@ -2,16 +2,17 @@ import React, {useCallback, useContext, useEffect, useState} from 'react'
 import {useHttp} from '../hooks/http.hook'
 import {AuthContext} from '../context/AuthContext'
 import {Loader} from '../components/Loader'
-import {LinksList} from '../components/LinksList'
+import {OfficeCard} from '../components/OfficeCard'
+import {PositionsPage} from './PositionsPage'
 
-export const LinksPage = () => {
+export const OfficePage = () => {
   const [links, setLinks] = useState([])
   const {loading, request} = useHttp()
   const {token} = useContext(AuthContext)
 
   const fetchLinks = useCallback(async () => {
     try {
-      const fetched = await request('/api/link', 'GET', null, {
+      const fetched = await request('/api/office', 'GET', null, {
         Authorization: `Bearer ${token}`
       })
       setLinks(fetched)
@@ -25,10 +26,15 @@ export const LinksPage = () => {
   if (loading) {
     return <Loader/>
   }
+ 
 
   return (
     <>
-      {!loading && <LinksList links={links} />}
-    </>
+      {!loading && <OfficeCard links={links} />}
+      <p></p>
+      <p></p>
+      <h5>Текущие позиции</h5>
+      <PositionsPage />      
+    </>    
   )
 }
