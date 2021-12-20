@@ -1,6 +1,6 @@
 {
   "port": 5000,
-  "jwtSecret": "hkakdfkhadfkkhkhklldafkllkadfhuutytbvvghf",
-  "mongoUri": "mongodb+srv://alexeygarin:g7812&rip@cluster0.hiqyv.mongodb.net/gcorp?retryWrites=true&w=majority",
+  "jwtSecret": "hkakdfkhadfkkjeafkyiyaerhglkbhgytbvvghf",
+  "mongoUri": "mongodb+srv://garin:11235813bot@cluster0.kjbqf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   "baseUrl": "http://localhost:5000"
 }

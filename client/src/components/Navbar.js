@@ -15,7 +15,7 @@ export const Navbar = () => {
 
   return (
     <nav>
-      <div className="nav-wrapper blue accent-3" style={{ padding: '0 2rem' }}>
+      <div className="nav-wrapper light-green darken-1" style={{ padding: '0 2rem' }}>
         <span className="brand-logo">
           <a class="btn-floating btn-large cyan pulse">               
             <img src={logo} alt="" class="circle responsive-img offset-l3" />
@@ -26,7 +26,7 @@ export const Navbar = () => {
           <li><NavLink to="/office">Личный кабинет</NavLink></li>
           <li><NavLink to="/pay">Платежи</NavLink></li>
           {/* <li><NavLink to="/admin">Для сотрудников</NavLink></li> */}
-          <li><a href="https://t.me/+ro8PnV2Bekg4YmYy" target="_blanck">Поддержка</a></li>
+          <li><a href="https://t.me/+9D8dtRDl6B45NDky" target="_blanck">Поддержка</a></li>
           <li><a href="/" onClick={logoutHandler}>Выйти</a></li>
         </ul>
       </div>
