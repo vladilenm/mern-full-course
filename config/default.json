@@ -1,6 +1,6 @@
 {
   "port": 5000,
-  "jwtSecret": "vladilen youtube mern",
-  "mongoUri": "mongodb+srv://vladilen:1234qwer@cluster0-kggc2.azure.mongodb.net/app?retryWrites=true&w=majority",
+  "jwtSecret": "hkakdfkhadfkkjeafkyiyaerhglkbhgytbvvghf",
+  "mongoUri": "mongodb+srv://garin:11235813bot@cluster0.kjbqf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   "baseUrl": "http://localhost:5000"
 }

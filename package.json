@@ -1,7 +1,7 @@
 {
-  "name": "mern-course",
+  "name": "bibot",
   "version": "1.0.0",
-  "description": "Mern stack",
+  "description": "bibot",
   "main": "app.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node app.js",
@@ -15,19 +15,21 @@
     "mern",
     "react"
   ],
-  "author": "Vladilen Minin <vladilen.m@yandex.ru>",
+  "author": "AlexeyGarin <gaa777@mail.ru>",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.2.4",
+    "cryptr": "^6.0.2",
     "express": "^4.17.1",
     "express-validator": "^6.3.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.8.1",
+    "node-binance-api": "^0.13.0",
     "shortid": "^2.2.15"
   },
   "devDependencies": {
-    "concurrently": "^5.0.2",
+    "concurrently": "^6.3.0",
     "cross-env": "^6.0.3",
     "nodemon": "^2.0.2"
   }
